@@ -17,7 +17,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 #ifndef CONFIG_H
 #define CONFIG_H
-
+#define GH60_REV_CHN 1
 
 /* USB Device descriptor parameter */
 #define VENDOR_ID       0xFEED
