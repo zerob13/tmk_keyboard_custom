@@ -60,7 +60,7 @@ const uint8_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
         CAPS,TRNS,TRNS,TRNS,MSEL,MPRV,MPLY,MNXT,PSCR,SLCK,PAUS,UP,  TRNS,TRNS,\
         RCTL,VOLD,VOLU,MUTE,EJCT,TRNS,PAST,PSLS,HOME,PGUP,LEFT,RGHT, PENT,\
         TRNS,TRNS,FN4,FN1,FN2,FN3,PPLS,PMNS,END, PGDN,DOWN,     TRNS,TRNS,\
-        TRNS,TRNS,FN6,          FN5,                    TRNS,TRNS,TRNS,TRNS),
+        TRNS,TRNS,TRNS,          FN5,                    TRNS,TRNS,TRNS,TRNS),
 
 };
 
@@ -77,7 +77,7 @@ const uint16_t PROGMEM fn_actions[] = {
     [3] = ACTION_BACKLIGHT_INCREASE(),
     [4] = ACTION_BACKLIGHT_STEP(),
     [5] = ACTION_MACRO(MAIL),
-    [6] = ACTION_LAYER_TOGGLE(1),
+    //[6] = ACTION_LAYER_TOGGLE(1),
 };
 
 /*
